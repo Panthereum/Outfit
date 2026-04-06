@@ -1,0 +1,28 @@
+TODO
+My List
+-------
+
+itemform.html
+------------
+color popup for color
+
+
+PROBLEMS:
+-------
+ADD
+---
+
+
+READ
+----
+email and password comparsion on registration form through javascript before submission
+is not implemented.
+
+UPDATE
+------
+forget password functionality is not implemented
+
+DELETE
+------
+User can't delete its own created category
+Admin should only update and delete its own data.

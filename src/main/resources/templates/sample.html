@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+<head th:replace="base::header">
+
+    <title>Sample</title>
+</head>
+
+<body>
+<div th:replace="base::nav"></div>
+
+<nav class="navbar-expand-lg bg-dark navbar-dark" id="navbarResponsive">
+    <ul class="navbar-nav ml-auto">
+
+        <li class="menu-item nav-item">
+            <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown"
+               href="#" id="navbarDropdownMenuLink" role="button">
+                main menu
+            </a>
+            <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                <a class="dropdown-item" href="#">P</a>
+                <a class="dropdown-item" href="#">Q</a>
+                <a class="dropdown-item" href="#">R</a>
+                <div class="submenu-item dropright">
+                    <a aria-expanded="true" aria-haspopup="true" class="dropdown-item dropdown-toggle dropright"
+                       data-toggle="dropdown" href="#" id="navbarDropdownSubMenuLink" role="button">
+                        S
+                    </a>
+                    <div aria-labelledby="navbarDropdownSubMenuLink" class="dropdown-menu">
+                        <a class="dropdown-item" href="#">T</a>
+                        <a class="dropdown-item" href="#">U</a>
+                        <a class="dropdown-item" href="#">V</a>
+                        <a class="dropdown-item" href="#">W</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+
+        <button class="btn btn-default" onclick="location.href='/M';" type="submit">R</button>
+    </ul>
+</nav>
+<div class="container">
+    <!--insert webpage content here-->
+
+</div>
+
+<div th:replace="base::footer"></div>
+</body>
+</html>
